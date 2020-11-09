@@ -1,0 +1,15 @@
+For python 3.x
+>>> pip install opencv-python
+
+or
+
+download whl (wheel) package from https://pypi.python.org/pypi/opencv-python#downloads and run
+>>> pip install opencv_python-3.3.0.10-cp36-cp36m-win_amd64.whl
+----------------------------------------------------------------------
+for python 2.x
+Download latest OpenCV release from https://opencv.org/releases.html and extract it.
+Goto opencv/build/python/2.x folder.
+Copy cv2.pyd to <Python or Anaconda path>\Lib\site-packeges.
+Open Python and type following codes in Python terminal. 
+>>> import cv2
+>>> print cv2. __version__
